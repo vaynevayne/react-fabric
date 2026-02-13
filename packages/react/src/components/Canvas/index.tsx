@@ -57,7 +57,6 @@ const Canvas = ({ children, onMouseWheel, ...props }: CanvasProps) => {
     return () => {
       unbindEvents() // 调用清理函数
       canvasRef.current?.dispose()
-      canvas?.remove()
       canvasRef.current = undefined // 清除引用
       store.setState({
         canvas: null,
