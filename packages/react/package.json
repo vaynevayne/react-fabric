@@ -14,12 +14,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cs-open/react-fabric.git",
+    "url": "https://github.com/vaynevayne/react-fabric.git",
     "directory": "packages/react"
   },
-  "homepage": "https://cs-open.github.io/react-fabric/",
+  "homepage": "https://vaynevayne.github.io/react-fabric/",
   "bugs": {
-    "url": "https://github.com/cs-open/react-fabric/issues"
+    "url": "https://github.com/vaynevayne/react-fabric/issues"
   },
   "files": [
     "dist"
@@ -60,7 +60,7 @@
   "peerDependencies": {
     "@floating-ui/core": "^1.6.9",
     "@floating-ui/react": "^0.27.16",
-    "fabric": "^6.6.1",
+    "fabric": ">=6.6.1",
     "react": ">=17.0.0",
     "react-dom": ">=17.0.0",
     "use-sync-external-store": "^1.4.0",
