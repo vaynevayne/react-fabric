@@ -1,5 +1,12 @@
 # @cs-open/tsconfig
 
+## 1.0.1
+
+### Patch Changes
+
+- 206bda8: aa
+- ss
+
 ## 1.0.0
 
 ### Major Changes
