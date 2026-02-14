@@ -1,5 +1,11 @@
 # @cs-open/rollup-config
 
+## 1.0.1
+
+### Patch Changes
+
+- 206bda8: aa
+
 ## 1.0.0
 
 ### Major Changes
