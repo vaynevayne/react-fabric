@@ -14,7 +14,7 @@
 
 <div id="chinese">
 
-一个基于 Fabric.js 构建的现代化 React Canvas 绘图组件库，提供强大的 2D 图形绘制、交互和动画功能。
+一个基于 Fabric.js 构建的现代化 React Canvas 绘图组件库，提供强大的 2D 图形绘制、交互和动画功能
 
 ## ✨ 核心特性
 
