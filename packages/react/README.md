@@ -65,14 +65,13 @@ pnpm add @cs-open/react-fabric
 
 ```tsx
 import React from 'react'
-import { ReactFabric, Rect, Text, Circle } from '@cs-open/react-fabric'
+import { ReactFabric, Rect, Text,  } from '@cs-open/react-fabric'
 
 function App() {
   return (
     <div style={{ width: '100%', height: '500px' }}>
       <ReactFabric>
         <Rect left={100} top={100} width={200} height={100} fill="red" stroke="blue" strokeWidth={2} />
-        <Circle left={300} top={150} radius={50} fill="green" />
         <Text left={150} top={250} text="Hello Fabric!" fontSize={20} fill="white" />
       </ReactFabric>
     </div>
@@ -113,7 +112,6 @@ function CanvasWithControls() {
 
 ```tsx
 import { ReactFabric, PluginPinch } from '@cs-open/react-fabric'
-import { PluginPinch } from '@cs-open/react-fabric/plugins'
 
 function TouchCanvas() {
   return (
@@ -150,14 +148,13 @@ function CanvasWithBackground() {
 | `PluginFreeDraw` | 自由绘制 | 手绘路径和涂鸦功能     |
 | `PluginFreeRect` | 矩形绘制 | 交互式矩形绘制工具     |
 | `PluginFreeText` | 文本工具 | 点击添加可编辑文本     |
-| `PluginGridLine` | 网格辅助 | 显示网格线辅助对齐     |
+| `PluginGrid` | 网格辅助 | 显示网格线辅助对齐     |
 | `PluginMask`     | 遮罩效果 | 创建遮罩和裁剪效果     |
 
 ### 使用插件
 
 ```tsx
-import { ReactFabric } from '@cs-open/react-fabric'
-import { PluginPinch, PluginFreeDraw, PluginFreeRect, PluginGridLine } from '@cs-open/react-fabric/plugins'
+import { ReactFabric,PluginPinch, PluginFreeDraw, PluginFreeRect, PluginGrid } from '@cs-open/react-fabric'
 
 function AdvancedCanvas() {
   return (
@@ -181,7 +178,7 @@ function AdvancedCanvas() {
       />
 
       {/* 网格线 */}
-      <PluginGridLine />
+      <PluginGrid />
     </ReactFabric>
   )
 }
