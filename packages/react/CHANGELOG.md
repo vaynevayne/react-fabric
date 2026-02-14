@@ -1,5 +1,11 @@
 # @cs-open/react-fabric
 
+## 1.0.0
+
+### Major Changes
+
+- 升级到 1.0.0 版本，包含重大变更和破坏性更新。
+
 ## 0.0.15
 
 ### Patch Changes
